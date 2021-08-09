@@ -1,0 +1,72 @@
+/* Imports */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+}
+/* Header */
+.header {
+  height: 50px;
+  padding: 20px 0 0 24px;
+}
+.header__title {
+  font-family: 'Inconsolata', monospace;
+  font-size: 24px;
+}
+/* Main */
+.page{
+  width: 375px;
+  max-width: 345px;
+  padding: 0 0 0 24px;
+}
+.page__container-img{
+  margin: 2rem 0 2rem 0;
+}
+.page__img{
+  width: 100%;
+}
+.page__title{
+  font-size: 45px;
+  font-family: 'Space Mono', monospace;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+.page__text{
+  font-size: 18px; 
+  font-family: 'Space Mono', monospace;
+  margin-bottom: 66px;
+}
+.page__btn{
+  padding: 24px 43px;
+  border: none;
+  background-color: #333333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 114px;
+}
+.btn{
+  text-decoration: none;
+  color: #fff;
+}
+/* Footer  */
+.footer{
+  display: flex;
+  justify-content: center;
+}
+.footer__text{
+  color: #bdbdbd;
+  font-size: 14px;
+  font-family: 'Montserrat', sans-serif;
+}
+.footer__text a{
+  text-decoration: none;
+  color: #bdbdbd;
+  font-size: 14px;
+  font-family: 'Montserrat', sans-serif;
+}
