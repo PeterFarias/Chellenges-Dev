@@ -9,6 +9,13 @@ html,
 body {
   height: 100%;
 }
+@media only screen and (min-width: 480px){
+  body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}
 /* Header */
 .header {
   height: 50px;
@@ -20,15 +27,32 @@ body {
 }
 /* Main */
 .page{
-  width: 375px;
-  max-width: 345px;
+  width: 345px;
   padding: 0 0 0 24px;
+  display: flex;
+  flex-direction: column;
+}
+@media only screen and (min-width: 480px){
+  .page{
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 1000px;
+    column-gap: 20px;
+    align-self: center;
+  }
 }
 .page__container-img{
   margin: 2rem 0 2rem 0;
 }
 .page__img{
   width: 100%;
+}
+@media only screen and (min-width: 480px){
+  .page__img{
+    width: 540px;
+    height: 450px;
+  }
 }
 .page__title{
   font-size: 45px;
@@ -40,6 +64,14 @@ body {
   font-size: 18px; 
   font-family: 'Space Mono', monospace;
   margin-bottom: 66px;
+}
+@media only screen and (min-width: 480px){
+  .page__title{
+    font-size: 64px;
+  }
+  .page__text{
+
+  }
 }
 .page__btn{
   padding: 24px 43px;
