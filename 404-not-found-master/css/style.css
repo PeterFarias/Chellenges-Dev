@@ -16,6 +16,19 @@ body {
     justify-content: space-between;
   }
 }
+/* Page Index */
+/* Container */
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+}
+.enlace{
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
 /* Header */
 .header {
   height: 50px;
@@ -47,11 +60,20 @@ body {
 }
 .page__img{
   width: 100%;
+  animation: imageAnimation 3s infinite alternate;
 }
 @media only screen and (min-width: 480px){
   .page__img{
     width: 540px;
     height: 450px;
+  }
+}
+@keyframes imageAnimation {
+  0%{
+    transform: translateY(0);
+  }
+  100%{
+    transform: translateY(20px);
   }
 }
 .page__title{

@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1,
@@ -16,27 +15,30 @@
   <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&family=Space+Mono:wght@400;700&display=swap"
     rel="stylesheet">
   <!-- Normalize CSS -->
-  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="../css/normalize.css">
   <!-- Estilos CSS -->
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="../css/style.css">
 </head>
 
 <body>
-
   <header class="header">
     <h3 class="header__title">404 NOT FOUND</h3>
   </header>
 
-  <main class="container">
-    <div class="wrapper">
-      <h1 class="page__title">Bienvenido</h1>
-      <div class="enlace">
-        <button class="page__btn">
-          <a href="page/404-not-found.html" class="btn">Siguiente</a>
-        </button>
-      </div>
+  <main class="page">
+    <div class="page__container-img">
+      <img src="../img/Scarecrow.png" alt="Imagan Not Found" class="page__img">
     </div>
+    <div class="page__container-text">
+      <h1 class="page__title">I have bad news for you</h1>
+      <p class="page__text">
+        The page you are looking for might be removed or is temporarily unavailable
+      </p>
 
+      <button class="page__btn">
+        <a href="/index.html" class="btn">Back to homepage</a>
+      </button>
+    </div>
   </main>
 
   <div class="footer">
